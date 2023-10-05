@@ -1,12 +1,12 @@
 #include <iostream>
 
-namespace Rttt
+namespace Formatter::Test
 {
     class A {
         public:
 
         private:
-                      int x;
+          int x;
     };
 }
 
@@ -24,6 +24,9 @@ int main()
         case 2: {
             break;
         }
+
+    case 3: ++x; break;
+    default: break;
     }
 
     enum Y{
@@ -63,6 +66,15 @@ int main()
     do {
         std::cout << x;
     } while(false);
+
+
+    try {
+
+    }
+    catch   ()
+    {
+
+    }
 
 return 0;
 }
