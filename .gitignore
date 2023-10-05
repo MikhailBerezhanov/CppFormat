@@ -1,4 +1,4 @@
-src/(
+src/*
 *.cpp
 *.hpp
 *.c
