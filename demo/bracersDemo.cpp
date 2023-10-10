@@ -76,5 +76,40 @@ int main()
 
     }
 
+    const auto lambdaShort = [] () {
+
+    };
+
+    const auto lambdaLong = [&x] (int y, double z) {
+        1;
+        2;
+        3;
+        4;
+        5;
+        6;
+        7;
+        8;
+    };
+
+    functionCall(
+        []() {
+            1;
+            2;
+            3;
+            4;
+            return false;
+        },
+        [asd](int x, double y) {
+            return;
+        },
+        []() {
+            return 1;
+        }
+    );
+
+    std::sort(begin, end, [var = var](const auto& elem){ doThings(elem); });
+
+
+
 return 0;
 }
