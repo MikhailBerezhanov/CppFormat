@@ -75,9 +75,11 @@ ClassInitialization::ClassInitialization(int iiiiiiiiiii, double dddddddddd, boo
 
 int main()
 {
-    const char* x = "veryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryLongString";
+    const char* x = "veryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryLongString";
 
-    veryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryLongDescription ? firstValue : SecondValueVeryVeryVeryVeryLong;
+    int x = veryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryLongDescription ? firstValue : SecondValueVeryVeryVeryVeryLong;
+
+    TRACE_DEBUG("asdaasdasdzxczxcasdasdsad asdasd asa" << value << "asdasdsads" << asdsad << asdasdasdas << std::boolapha << fasdsaasd << "()" << x);
 
 	return 0;
 }
