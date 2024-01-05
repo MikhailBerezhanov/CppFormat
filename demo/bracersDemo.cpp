@@ -2,12 +2,12 @@
 
 namespace Formatter::Test
 {
-    class A {
-        public:
+class A {
+    public:
 
-        private:
-          int x;
-    };
+    private:
+      int x;
+};
 }
 
 
